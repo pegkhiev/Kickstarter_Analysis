@@ -9,11 +9,11 @@ Louise estimated a budget of US$10,000+ to fund her new campaign, a Play named "
 
 a) In the Theater category (which includes Musicals, Plays, and Spaces) in US, 525 out of 912 projects (57.6%) were successful. 
 
-![theater category outcome](https://github.com/pegkhiev/Kickstarter_Analysis/blob/master/theater_category_chart.png)
+<img width ="600" alt="theater category outcome" src="https://github.com/pegkhiev/Kickstarter_Analysis/blob/master/theater_category_chart.png">
 
 b) Within Theater category, the sub-category of Plays in US is the most successful, with a 61% success rate (412 out of 671 projects).
 
-![theater subcatory category outcome](https://github.com/pegkhiev/Kickstarter_Analysis/blob/master/parent%20category%20outcome%20chart.png)
+<img width="600" alt="theater subcatory category outcome" src="https://github.com/pegkhiev/Kickstarter_Analysis/blob/master/parent%20category%20outcome%20chart.png">
 
 c) For all Plays projects in US, the successful projects have a mean goal of $5,049 and a median goal of $3,000; whereas for the failed projects have a higher mean goal of $10,554 and a higher median goal of $5,000.  The successful projects resulted in a mean and median pledged amount fairly similar to the goal; whereas for the failed projects the mean and the median pledged amount is much lower. 
 
@@ -70,9 +70,13 @@ c) In the future, Louise should try to avoid launching campaigns in December is 
 
 **4. Limitations of Dataset Analysis and Recommendations** 
 
-a) Currently the analysis only looked at the relationship between the launch date and outcomes.  It does not take into account the actual duration of the campaigns, and how that might affect the outcomes. We should consider building another chart to look at the relationship between fundraising campaign duration and outcomes. 
+a) Currently the analysis only looked at the relationship between the launch date and outcomes.  It does not take into account the actual duration of the campaigns, and how that might affect the outcomes and the percentage of fund pledged to understand if Louise should consider a longer campaign for better success.  
+- Recommendation: Build a chart to look at relationship between duration and percentage pledged. 
 
-b) Louise came close to her goal within a short period of time.  However, we don't have data analysis to understand the relationship between duration and pledged amount.  We should consider building another chart to look at the relationship between duration of campaigns and the highest pledge percentage (over goal) campaigns to understand how much the highest  
+b) The current analysis is an aggregation of years of data, without taking into consideration of the outcome trend over time, which would be of interest for future campaigns.  
+- Recommendation: Build a chart to look at the outcome trend over time. 
 
+c) The current analysis does not look into average donation amounts for the projects in the same goal range as Louise's.  This would provide some insight into how to plan for the different tiers of pledges in future campaigns. 
+- Recommendation: Build a chart to look at the average donation amount based on goal amounts. 
 
 
