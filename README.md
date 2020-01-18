@@ -45,4 +45,21 @@ Louise's Kickstarter campaign for Plays in the US will have a higher chance of s
 
 ### Challenge
 
+**Background**
+Louise's play "Fever" project came close to its fundraising goal in a short amount of time.  Let's assume her target was US$10,000. She wanted to know how many other projects were able to do this as well. 
+
 **1. Outcome Based on Goals**
+
+The following chart shows Play projects (in the US) success and failure rates based on fundraising goals.  Non-US projects were excluded as the currency was different and without proper currency conversion it would skew the result. 
+
+This chart shows that Louise's target, assuming $10,000, and project goals that are equal or lower than $10,000, all have a higher success rate. Specifically, for projects between $10,000 to $19,999, the success rate was 54%.  
+
+![Outcome Based on Goals](https://github.com/pegkhiev/Kickstarter_Analysis/blob/master/Outcome_goals_USPlays.png)
+
+**2. Outcome Based on Launch Dates**
+
+The following chart shows the outcomes of all Theater projects in Kickstarter.  It shows that projects launched in May have the highest sucess rate. 
+
+
+
+
