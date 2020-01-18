@@ -46,20 +46,33 @@ Louise's Kickstarter campaign for Plays in the US will have a higher chance of s
 ### Challenge
 
 **Background**
-Louise's play "Fever" project came close to its fundraising goal in a short amount of time.  Let's assume her target was US$10,000. She wanted to know how many other projects were able to do this as well. 
+Louise's play "Fever" project came close to its fundraising goal in a short amount of time.  he wanted to know how many other projects were able to do this as well. *For the purpose of this analysis, it is assumed that her funding goal was US$10,000.
 
 **1. Outcome Based on Goals**
 
 The following chart shows Play projects (in the US) success and failure rates based on fundraising goals.  Non-US projects were excluded as the currency was different and without proper currency conversion it would skew the result. 
-
-This chart shows that Louise's target, assuming $10,000, and project goals that are equal or lower than $10,000, all have a higher success rate. Specifically, for projects between $10,000 to $19,999, the success rate was 54%.  
-
+ 
 ![Outcome Based on Goals](https://github.com/pegkhiev/Kickstarter_Analysis/blob/master/Outcome_goals_USPlays.png)
 
 **2. Outcome Based on Launch Dates**
 
 The following chart shows the outcomes of all Theater projects in Kickstarter.  It shows that projects launched in May have the highest sucess rate. 
 
+![Outcome Based on Launch Dates](https://github.com/pegkhiev/Kickstarter_Analysis/blob/master/Outcomes_launchdate_Allcountries_theater.png)
+
+**3. Conclusions**
+
+a) 54% of Plays projects in US with a funding goal of US$10,000-$14,999 were able to achieve success.  In the future, if Louise lowers her fundraising goal to $4999, she will have 17% more chances to achieve success. 
+
+b) Within the Theater category, projects launched in May have a higher success rate.  Therefore in the future, Louise should consider launching her fundraising campaigns on Kickstarter in May for a higher chance of success. 
+
+c) In the future, Louise should try to avoid launching campaigns in December is the month with the lowest success rate in the year. Only around 1/3 of the campaigns launched in December were successful. 
+
+**4. Limitations of Dataset Analysis and Recommendations** 
+
+a) Currently the analysis only looked at the relationship between the launch date and outcomes.  It does not take into account the actual duration of the campaigns, and how that might affect the outcomes. We should consider building another chart to look at the relationship between fundraising campaign duration and outcomes. 
+
+b) Louise came close to her goal within a short period of time.  However, we don't have data analysis to understand the relationship between duration and pledged amount.  We should consider building another chart to look at the relationship between duration of campaigns and the highest pledge percentage (over goal) campaigns to understand how much the highest  
 
 
 
