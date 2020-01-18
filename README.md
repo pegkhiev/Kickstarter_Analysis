@@ -46,7 +46,7 @@ Louise's Kickstarter campaign for Plays in the US will have a higher chance of s
 ### Challenge
 
 **Background**
-Louise's play "Fever" project came close to its fundraising goal in a short amount of time.  he wanted to know how many other projects were able to do this as well. *For the purpose of this analysis, it is assumed that her funding goal was US$10,000.
+Louise's play "Fever" project came close to its fundraising goal in a short amount of time.  She wanted to know how many other projects were able to do this as well. *For the purpose of this analysis, it is assumed that her funding goal was US$10,000.
 
 **1. Outcome Based on Goals**
 
@@ -66,17 +66,20 @@ a) 54% of Plays projects in US with a funding goal of US$10,000-$14,999 were abl
 
 b) Within the Theater category, projects launched in May have a higher success rate.  Therefore in the future, Louise should consider launching her fundraising campaigns on Kickstarter in May for a higher chance of success. 
 
-c) In the future, Louise should try to avoid launching campaigns in December is the month with the lowest success rate in the year. Only around 1/3 of the campaigns launched in December were successful. 
+c) In the future, Louise should try to avoid launching campaigns in December which is the month with the lowest success rate in the year. Only around 1/3 of the campaigns launched in December were successful. 
 
 **4. Limitations of Dataset Analysis and Recommendations** 
 
 a) Currently the analysis only looked at the relationship between the launch date and outcomes.  It does not take into account the actual duration of the campaigns, and how that might affect the outcomes and the percentage of fund pledged to understand if Louise should consider a longer campaign for better success.  
 - Recommendation: Build a chart to look at relationship between duration and percentage pledged. 
 
-b) The current analysis is an aggregation of years of data, without taking into consideration of the outcome trend over time, which would be of interest for future campaigns.  
-- Recommendation: Build a chart to look at the outcome trend over time. 
-
-c) The current analysis does not look into average donation amounts for the projects in the same goal range as Louise's.  This would provide some insight into how to plan for the different tiers of pledges in future campaigns. 
+b) The current analysis does not look into average donation amounts for the projects in the same goal range as Louise's.  This would provide some insight into how to plan for the different tiers of pledges in future campaigns. 
 - Recommendation: Build a chart to look at the average donation amount based on goal amounts. 
+
+c) The current analysis is an aggregation of years of data, without taking into consideration the trend over time. The trend over time of outcome of Plays would help us understand if the month of May was consistently the best month or if it was spiked by one particular year.  
+
+- Recommendation: Build a chart to look at the outcome trend over time based on launch date. 
+
+
 
 
